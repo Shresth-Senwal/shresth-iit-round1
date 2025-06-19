@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ThemeToggle } from '@/components/ui/ThemeProvider'
 
 interface RatingBadgeProps {
   platform: string
@@ -79,10 +78,7 @@ export default function Hero({ className = '' }: HeroProps) {
         </div>
       </div>
 
-      {/* Theme Toggle - Top Right */}
-      <div className="absolute top-6 right-6 z-20">
-        <ThemeToggle size="lg" variant="icon" />
-      </div>
+
 
       {/* Hero Content */}
       <div className="relative z-10 container-custom text-center text-white">
